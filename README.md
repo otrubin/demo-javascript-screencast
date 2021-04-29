@@ -56,28 +56,43 @@
 **saveScreencast.php** \- вызывается POST ajax-запросом для загрузки видео на сервер.
 
 Файлы загружаются в каталог указанный в config.php, в проекте это upload-video (каталог должен существовать).
+
 *Параметры запроса:* видеофайл, который нужно сохранить.
+
 *Возвращает:* JSON, содержащий поля:
+
 result \- результат работы скрипта true или false
+
 files \- массив имен файлов загруженных видео
+
 error \- если поле result === false, содержит текстовое описание ошибки
 
 **screencastFiles.php** \- вызывается POST ajax-запросом для получения списка загруженных видеофайлов.
+
 *Параметры запроса:* нет.
+
 *Возвращает:* JSON, содержащий поля:
+
 result \- результат работы скрипта true или false
+
 files \- массив имен файлов загруженных видео
+
 error \- если поле result === false, содержит текстовое описание ошибки
 
 **deleteScreencast.php** \- вызывается POST ajax-запросом для удаления
+
 *Параметры запроса:* имя файла для удаления
+
 *Возвращает:* JSON, содержащий поля:
+
 result \- результат работы скрипта true или false
+
 error \- если поле result === false, содержит текстовое описание ошибки
 
 ## Установка на сервер
 
 Просто загрузить файлы проекта в какую-то папку.
+
 Важно! Сайт должен работать по защищенному HTTPS-протоколу
 
 ## Установка на локальный сервер
@@ -91,7 +106,11 @@ error \- если поле result === false, содержит текстовое
 ## Полезные ссылки
 
 [https://developer.mozilla.org/ru/docs/Web/API/Screen\_Capture\_API/Using\_Screen\_Capture](https://developer.mozilla.org/ru/docs/Web/API/Screen_Capture_API/Using_Screen_Capture)
+
 [https://developer.mozilla.org/ru/docs/Web/API/MediaRecorder](https://developer.mozilla.org/ru/docs/Web/API/MediaRecorder)
+
 [https://developer.mozilla.org/ru/docs/Web/API/MediaDevices/getUserMedia](https://developer.mozilla.org/ru/docs/Web/API/MediaDevices/getUserMedia)
+
 [https://developer.mozilla.org/ru/docs/Web/API/MediaStream\_Recording\_API/Using\_the\_MediaStream\_Recording\_API](https://developer.mozilla.org/ru/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API)
+
 [https://webrtchacks.com/jitsi-recording-getdisplaymedia-audio/](https://webrtchacks.com/jitsi-recording-getdisplaymedia-audio/)
