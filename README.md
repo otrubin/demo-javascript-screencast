@@ -8,7 +8,7 @@
 
 **Проблема:** в [статье на MDN](https://developer.mozilla.org/ru/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) описывалось, что вместе с записью экрана можно записывать и звук, но добиться этого не удалось. По этой причине, для записи звука, использовался метод navigator.mediaDevices.getUserMedia
 
-Демо:  [https://screen.techmotiv.ru/](https://screen.techmotiv.ru/)
+Демо:  [https://portfolio.easyservs.ru/screencast/](https://portfolio.easyservs.ru/screencast/)
 
 ## Возможности учебного проекта:
 
